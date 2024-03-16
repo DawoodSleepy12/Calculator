@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div id="Calculator">
+      <div id="result">
+        <input type="text" id="result_form" />
+        
+      </div>
+      <div id="buttons">
+        <button id="clear_btn" class="buttons" onclick="">C</button>
+        <button id="add_btn" class="buttons" onclick="press('+')">+</button>
+        <button id="sub_btn" class="buttons" onclick="press('-')">-</button>
+        <button id="multiply_btn" class="buttons" onclick="press('*')">x</button>
+        <br />
+        <button id="one_btn" class="buttons" onclick="press('1')">1</button>
+        <button id="two_btn" class="buttons" onclick="press('2')">2</button>
+        <button id="three_btn" class="buttons" onclick="press('3')">3</button>
+        <button id="divide_btn" class="buttons" onclick="press('/')">/</button>
+        <br />
+        <button id="four_btn" class="buttons" onclick="press('4')">4</button>
+        <button id="five_btn" class="buttons" onclick="press('5')">5</button>
+        <button id="six_btn" class="buttons" onclick="press('6')">6</button>
+        <button id="equal_btn" class="buttons" onclick="calculate()">=</button>
+        <br />
+        <button id="seven_btn" class="buttons" onclick="press('7')">7</button>
+        <button id="eight_btn" class="buttons" onclick="press('8')">8</button>
+        <button id="nine_btn" class="buttons" onclick="press('9')">9</button>
+        <br />
+        <button id="zero_btn" class="buttons" onclick="press('0')">0</button>
+        <button id="decimal_btn" class="buttons" onclick="press('.')">.</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
